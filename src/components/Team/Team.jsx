@@ -3,13 +3,14 @@ import Navbar from '../Navbar/Navbar'
 import Footer from '../footer/Footer'
 import { motion } from "framer-motion";
 import { FaInstagram } from 'react-icons/fa';
+import {jaferg} from "../../assets/team-ast/jaferg.jpg"
 
 const people = [
   {
     name: 'Jafer Shareef',
     role: 'CEO/Hod of Chemistry',
     imageUrl:
-      './src/assets/team-ast/jaferg.jpg',
+      {jaferg},
       member_insta:"https://www.instagram.com/jafer9326?igsh=MThyNzFlZTd2MTI1bQ=="
     },
   {
