@@ -19,13 +19,7 @@ const people = [
       './src/assets/team-ast/sohel.jpg',
    member_insta:"https://www.instagram.com/sohel_9790?utm_source=qr&igsh=MzlwNTFydDBxbGV6"
     },
-  {
-    name: 'Mohit Kumawat',
-    role: 'Hod of Biology',
-    imageUrl:
-      './src/assets/team-ast/tutors.png',
-   member_insta:"#"
-    },
+
   {
     name: 'Mohammad Anis Khan',
     role: 'Hod of Class-1 to Class-10',
