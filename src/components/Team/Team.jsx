@@ -9,8 +9,7 @@ const people = [
   {
     name: 'Jafer Shareef',
     role: 'CEO/Hod of Chemistry',
-    imageUrl:
-      {jaferg},
+    imageUrl:jaferg,
       member_insta:"https://www.instagram.com/jafer9326?igsh=MThyNzFlZTd2MTI1bQ=="
     },
   {
