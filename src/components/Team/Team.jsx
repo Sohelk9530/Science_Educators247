@@ -3,14 +3,14 @@ import Navbar from '../Navbar/Navbar'
 import Footer from '../footer/Footer'
 import { motion } from "framer-motion";
 import { FaInstagram } from 'react-icons/fa';
-// import {jaferg} from "../../assets/team-ast/jaferg.jpg"
 
 const people = [
   {
     name: 'Jafer Shareef',
     role: 'CEO/Hod of Chemistry',
-    imageUrl: "../../assets/team-ast/jaferg.jpg",
-    member_insta:"https://www.instagram.com/jafer9326?igsh=MThyNzFlZTd2MTI1bQ=="
+    imageUrl:
+      './src/assets/team-ast/jaferg.jpg',
+      member_insta:"https://www.instagram.com/jafer9326?igsh=MThyNzFlZTd2MTI1bQ=="
     },
   {
     name: 'Mohammad Sohel khan',
@@ -19,13 +19,14 @@ const people = [
       './src/assets/team-ast/sohel.jpg',
    member_insta:"https://www.instagram.com/sohel_9790?utm_source=qr&igsh=MzlwNTFydDBxbGV6"
     },
-    {
-      name: 'Mohit Kumawat',
-      role: 'Hod of Biology',
-      imageUrl:
-        './src/assets/team-ast/tutors.png',
-     member_insta:"#"
-      },
+  {
+    name: 'Mohit Kumawat',
+    role: 'Hod of Biology',
+    imageUrl:
+      './src/assets/team-ast/tutors.png',
+   member_insta:"#"
+    },
+
   {
     name: 'Mohammad Anis Khan',
     role: 'Hod of Class-1 to Class-10',
