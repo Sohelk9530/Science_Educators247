@@ -41,10 +41,10 @@ const ScienceImages = () => {
 
   return (
     <div className="p-6">
-      {loading ? (
+      {loading ? (           
         <img
           alt=""
-          src="./src/assets/logo_landscape.png"
+          src="/logo_landscape.png"
           className="absolute inset-0 -z-10 size-full object-cover object-center md:object-center"
         />
       ) : image ? (
@@ -60,7 +60,7 @@ const ScienceImages = () => {
       ) : (
         <img
           alt=""
-          src="./src/assets/logo_landscape.png"
+          src="/logo_landscape.png"
           className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
         />
       )}
