@@ -62,7 +62,7 @@ const Footer = () => {
             <h1 className='text-2xl font-bold'>Get In Touch</h1>
             <div className='flex items-center'>
               <input type="text" placeholder='Enter Your Email' 
-              className='p-3 rounded-s-xl bg-white py-4 w-full focus:ring-0 focus:outline-none placeholder:text-dark2'
+              className='p-3 rounded-s-xl bg-white py-4 w-full focus:ring-0 focus:outline-none placeholder:text-dark2 border-2 rounded-[5px] border-gray-500'
               />
               <button className='bg-blue-500 text-white font-semibold py-4 px-6 rounded-e-xl' onClick={()=>alert("Navigate to Contact Page!")}>
                 <Link to="/contact">Go</Link>
