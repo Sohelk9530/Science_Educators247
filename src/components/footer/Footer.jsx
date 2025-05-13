@@ -9,7 +9,7 @@ import { FaGithub } from 'react-icons/fa6';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className='pb-20 bg-[#f7f7f7]'>
+    <footer className='pb-20 pt-10 bg-[#f7f7f7]'>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
