@@ -4,8 +4,8 @@
 
 @layer components {
    .primary-btn{
-    @apply inline-block bg-blue-400 text-white font-semibold rounded-lg hover:bg-rose-300 duration-200 shadow-[0px_10px_8px_-7px_#ffd978]
-    hover:shadow-[0px_10px_8px_-7px_#69a79c] py-2 px-6;
+    @apply inline-block bg-blue-400 text-white font-semibold rounded-lg hover:bg-rose-300 duration-200 shadow-[0px_10px_8px_-7px_#fda4af]
+    hover:shadow-[0px_10px_8px_-7px_#60a5fa] py-2 px-6;
    }
 }
 @layer utilities {
