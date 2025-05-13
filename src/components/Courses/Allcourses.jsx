@@ -75,12 +75,13 @@ const Allcourses = () => {
             <Navbar />
             <div className="container mx-auto p-4">
                 <motion.h1 
-                initial={{opacity:0,x:50}}
-                whileInView={{opacity:1,x:0}}
+                initial={{opacity:0,y:50}}
+                whileInView={{opacity:1,y:0}}
                 transition={{
                     ease:"easeInOut",
-                    duration:0.3,
+                    duration:0.5,
                 }}
+                viewport={{once:true}}
                 className="text-4xl font-bold text-center mb-8">Explore Our Popular Courses</motion.h1>
                 <div className='flex items-center justify-center'>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

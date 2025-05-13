@@ -61,8 +61,8 @@ const Team = () => {
         <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-xl">
             <motion.h2
-             initial={{opacity:0,x:50}}
-             whileInView={{opacity:1,x:0}}
+             initial={{opacity:0,y:50}}
+             whileInView={{opacity:1,y:0}}
              transition={{
                duration:0.5,
                ease:"easeInOut"
@@ -72,8 +72,8 @@ const Team = () => {
               Meet our Experts
             </motion.h2>
             <motion.p
-             initial={{opacity:0,x:-50}}
-             whileInView={{opacity:1,x:0}}
+             initial={{opacity:0,y:-50}}
+             whileInView={{opacity:1,y:0}}
              transition={{
                duration:0.5,
                ease:"easeInOut"
@@ -87,8 +87,8 @@ const Team = () => {
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
             {people.map((person) => (
               <motion.li
-                initial={{opacity:0,x:50}}
-                whileInView={{opacity:1,x:0}}
+                initial={{opacity:0,y:50}}
+                whileInView={{opacity:1,y:0}}
                 transition={{
                   duration:0.5,
                   ease:"easeInOut"

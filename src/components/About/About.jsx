@@ -45,14 +45,14 @@ const ScienceImages = () => {
         <img
           alt=""
           src="/logo_landscape.png"
-          className="absolute inset-0 -z-10 size-full object-cover object-center md:object-center"
+          className="absolute inset-0 -z-10 size-full object-cover object-center md:object-center opacity-45"
         />
       ) : image ? (
         <div >
           <img
             src={image.url}
             alt={image.title}
-            className="absolute inset-0 -z-10 size-full object-cover object-center md:object-center"
+            className="absolute inset-0 -z-10 size-full object-cover object-center md:object-center opacity-45"
           />
           <h1 className='text-end tracking-tight text-white sm:text-2xl relative
           top-[-145px]  max-sm:top-[-115px] font-poppins underline p-1 rounded-xl'>Image From:- {image.title}</h1>
