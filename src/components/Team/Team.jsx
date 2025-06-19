@@ -7,21 +7,21 @@ import { FaInstagram } from 'react-icons/fa';
 const people = [
   {
     name: 'Jafer Shareef',
-    role: 'CEO/Hod of Chemistry',
+    role: 'Mentor of Chemistry',
     imageUrl:
       '/team-ast/jaferg.jpg',
       member_insta:"https://www.instagram.com/jafer9326?igsh=MThyNzFlZTd2MTI1bQ=="
     },
   {
     name: 'Mohammad Sohel khan',
-    role: 'Hod of Physics',
+    role: 'Mentor of Physics',
     imageUrl:
       '/team-ast/sohel.jpg',
    member_insta:"https://www.instagram.com/sohel_9790?utm_source=qr&igsh=MzlwNTFydDBxbGV6"
     },
   {
     name: 'Mohit Kumawat',
-    role: 'Hod of Biology',
+    role: 'Mentor of Biology',
     imageUrl:
       '/team-ast/tutors.png',
    member_insta:"#"
@@ -29,21 +29,21 @@ const people = [
 
   {
     name: 'Mohammad Anis Khan',
-    role: 'Hod of Class-1 to Class-10',
+    role: 'Mentor of Class-1 to Class-10',
     imageUrl:
       '/team-ast/tutors.png',
    member_insta:"#"
     },
   {
     name: 'Mohammad Faijan',
-    role: 'Hod of Mobile App-Dev',
+    role: 'Mentor for Mobile-App Dev.',
     imageUrl:
       '/team-ast/faijan.jpg',
    member_insta:"https://www.instagram.com/based_faizan?igsh=YWYxYWVkcXhueXkz"
     },
   {
     name: 'Aabid Abbasi',
-    role: 'Hod of Web App-Dev',
+    role: 'Mentor of Web-App Dev.',
     imageUrl:
      '/team-ast/aabid.jpg',
    member_insta:"https://www.instagram.com/abid_abbasi_12?igsh=Z2pkMm8yYWIyOTl5"
