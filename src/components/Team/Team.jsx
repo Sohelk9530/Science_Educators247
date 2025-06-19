@@ -16,7 +16,7 @@ const people = [
   {
     name: 'Mohammad Sohel khan',
     role: 'Mentor of Physics',
-    main:'Developers of Science-Educators247',
+    main:'Developer of Science-Educators247',
     imageUrl:
       '/team-ast/sohel.jpg',
    member_insta:"https://www.instagram.com/sohel_9790?utm_source=qr&igsh=MzlwNTFydDBxbGV6"
