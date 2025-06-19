@@ -9,6 +9,7 @@ const people = [
     name: 'Jafer Shareef',
     role: 'Mentor of Chemistry',
     main:'Founder of Science-Educators247',
+    mobile:'Mobile Number : 9001664012',
     imageUrl:
       '/team-ast/jaferg.jpg',
       member_insta:"https://www.instagram.com/jafer9326?igsh=MThyNzFlZTd2MTI1bQ=="
@@ -17,6 +18,7 @@ const people = [
     name: 'Mohammad Sohel khan',
     role: 'Mentor of Physics',
     main:'Developer of Science-Educators247',
+    mobile:'Mobile Number : 9660129779',
     imageUrl:
       '/team-ast/sohel.jpg',
    member_insta:"https://www.instagram.com/sohel_9790?utm_source=qr&igsh=MzlwNTFydDBxbGV6"
@@ -25,6 +27,7 @@ const people = [
     name: 'Mohit Kumawat',
     role: 'Mentor of Biology',
     main:'',
+     mobile:'',
     imageUrl:
       '/team-ast/tutors.png',
    member_insta:"#"
@@ -34,6 +37,7 @@ const people = [
     name: 'Mohammad Anis Khan',
     role: 'Mentor of Class-1 to Class-10',
     main:'',
+    mobile:'',
     imageUrl:
       '/team-ast/tutors.png',
    member_insta:"#"
@@ -42,6 +46,7 @@ const people = [
     name: 'Mohammad Faijan',
     role: 'Mentor for Mobile-App Dev.',
     main:'',
+    mobile:'',
     imageUrl:
       '/team-ast/faijan.jpg',
    member_insta:"https://www.instagram.com/based_faizan?igsh=YWYxYWVkcXhueXkz"
@@ -50,6 +55,7 @@ const people = [
     name: 'Aabid Abbasi',
     role: 'Mentor of Web-App Dev.',
     main:'',
+    mobile:'',
     imageUrl:
      '/team-ast/aabid.jpg',
    member_insta:"https://www.instagram.com/abid_abbasi_12?igsh=Z2pkMm8yYWIyOTl5"
@@ -107,6 +113,7 @@ const Team = () => {
                     <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">{person.name}</h3>
                     <p className="text-sm/6 font-semibold text-indigo-600">{person.role}</p>
                     <p className="text-sm/6 font-semibold text-indigo-600">{person.main}</p>
+                    <p className="text-sm/6 font-semibold text-gray-900">{person.mobile}</p>
                   </div>
                   </div>
                   <a href={person.member_insta} target="_blank" rel="noopener noreferrer">
