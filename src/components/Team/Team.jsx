@@ -51,24 +51,7 @@ const people = [
       '/team-ast/tutors.png',
    member_insta:"#"
     },
-  {
-    name: 'Mohammad Faijan',
-    role: 'Mentor for Mobile-App Dev.',
-    main:'',
-    mobile:'',
-    imageUrl:
-      '/team-ast/faijan.jpg',
-   member_insta:"https://www.instagram.com/based_faizan?igsh=YWYxYWVkcXhueXkz"
-    },
-  {
-    name: 'Aabid Abbasi',
-    role: 'Mentor of Web-App Dev.',
-    main:'',
-    mobile:'',
-    imageUrl:
-     '/team-ast/aabid.jpg',
-   member_insta:"https://www.instagram.com/abid_abbasi_12?igsh=Z2pkMm8yYWIyOTl5"
-    },
+ 
   // More people...
 ]
 
