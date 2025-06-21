@@ -23,6 +23,15 @@ const people = [
       '/team-ast/sohel.jpg',
    member_insta:"https://www.instagram.com/sohel_9790?utm_source=qr&igsh=MzlwNTFydDBxbGV6"
     },
+    {
+      name: 'Raghavendra Sharma',
+      role: 'HOD of Commerce',
+      main:'',
+       mobile:'Mobile Number : 7737219034',
+      imageUrl:
+        '/team-ast/raghav.jpg',
+     member_insta:"#"
+      },
   {
     name: 'Mohit Kumawat',
     role: 'Mentor of Biology',
@@ -30,15 +39,6 @@ const people = [
      mobile:'',
     imageUrl:
       '/team-ast/tutors.png',
-   member_insta:"#"
-    },
-  {
-    name: 'Raghavendra Sharma',
-    role: 'HOD of Commerce',
-    main:'',
-     mobile:'7737219034',
-    imageUrl:
-      '/team-ast/raghav.jpg',
    member_insta:"#"
     },
 
