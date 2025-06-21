@@ -32,6 +32,15 @@ const people = [
       '/team-ast/tutors.png',
    member_insta:"#"
     },
+  {
+    name: 'Raghavendra Sharma',
+    role: 'HOD of Commerce',
+    main:'',
+     mobile:'7737219034',
+    imageUrl:
+      '/team-ast/raghav.jpg',
+   member_insta:"#"
+    },
 
   {
     name: 'Mohammad Anis Khan',
