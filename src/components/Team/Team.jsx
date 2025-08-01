@@ -9,7 +9,7 @@ const people = [
     name: 'Jafer Shareef',
     role: 'Mentor of Chemistry',
     main:'Founder of Science-Educators247',
-    mobile:'Mobile Number : 9001664012',
+    mobile:'',
     imageUrl:
       '/team-ast/jaferg.jpg',
       member_insta:"https://www.instagram.com/jafer9326?igsh=MThyNzFlZTd2MTI1bQ=="
@@ -18,7 +18,7 @@ const people = [
     name: 'Mohammad Sohel khan',
     role: 'Mentor of Physics',
     main:'Developer of Science-Educators247',
-    mobile:'Mobile Number : 9660129779',
+    mobile:'',
     imageUrl:
       '/team-ast/sohel.jpg',
    member_insta:"https://www.instagram.com/sohel_9790?utm_source=qr&igsh=MzlwNTFydDBxbGV6"
@@ -27,7 +27,7 @@ const people = [
       name: 'Raghavendra Sharma',
       role: 'HOD of Commerce',
       main:'',
-       mobile:'Mobile Number : 7737219034',
+       mobile:'',
       imageUrl:
         '/team-ast/raghav.jpg',
      member_insta:"#"

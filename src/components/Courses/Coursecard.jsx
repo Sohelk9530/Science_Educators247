@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
+import Practice_Series from './Practice_Series';
 
 const CourseCard = ({ title, description, image }) => {
  
@@ -18,7 +19,7 @@ const CourseCard = ({ title, description, image }) => {
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-gray-700 text-base">{description}</p>
         <button className='primary-btn transition-all duration-300 hover:scale-105'>
-        <a href="https://www.youtube.com/@Science-Educators247" target="_blank" rel="noopener noreferrer">Enroll Now!</a>
+        <a href={Practice_Series} target="_blank" rel="noopener noreferrer">Enroll Now!</a>
           </button>
       </div>
     </motion.div>
