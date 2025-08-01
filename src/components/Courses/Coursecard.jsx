@@ -19,7 +19,7 @@ const CourseCard = ({ title, description, image }) => {
         <div className="font-bold text-xl mb-2">{title}</div>
         <p className="text-gray-700 text-base">{description}</p>
         <button className='primary-btn transition-all duration-300 hover:scale-105'>
-        <a href={Practice_Series} target="_blank" rel="noopener noreferrer">Enroll Now!</a>
+        <a href='./Practice_Series' target="_blank" rel="noopener noreferrer">Enroll Now!</a>
           </button>
       </div>
     </motion.div>
